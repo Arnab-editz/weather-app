@@ -172,6 +172,7 @@ body{
     .details {
         margin-top: 40px; /* Adjusted margin top */
         padding: 0px 10px;
+
     }
 
     .col img {
@@ -180,5 +181,22 @@ body{
 
     .humidity, .wind {
         font-size: 10px; /* Adjusted font size */
+    }
+    .col p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 300px){
+    .details{
+        padding: 0px 5px;
+    }
+    .humidity, .wind {
+        font-size: 5px; /* Adjusted font size */
+    }
+    .col p{
+        font-size: 10px;
+    }
+    .search input{
+        width: 170px;
     }
 }
