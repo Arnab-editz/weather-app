@@ -171,6 +171,7 @@ body{
 
     .details {
         margin-top: 40px; /* Adjusted margin top */
+        padding: 0px 10px;
     }
 
     .col img {
