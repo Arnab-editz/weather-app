@@ -137,3 +137,47 @@ body{
         font-size: 16px; /* Adjusted font size */
     }
 }
+@media screen and (max-width: 400px) {
+    .card {
+        padding: 30px 20px; /* Adjusted padding */
+    }
+
+    .search input {
+        padding: 10px 10px; /* Adjusted padding */
+        height: 30px;
+        width: 180px;
+    }
+
+    .search button {
+        width: 30px; /* Adjusted width */
+        height: 30px; /* Adjusted height */
+    }
+
+    .search button img {
+        width: 10px; /* Adjusted width */
+    }
+
+    .weather-icon {
+        width: 70px; /* Adjusted width */
+    }
+
+    .weather h1 {
+        font-size: 30px; /* Adjusted font size */
+    }
+
+    .weather h2 {
+        font-size: 15px; /* Adjusted font size */
+    }
+
+    .details {
+        margin-top: 40px; /* Adjusted margin top */
+    }
+
+    .col img {
+        width: 15px; /* Adjusted width */
+    }
+
+    .humidity, .wind {
+        font-size: 10px; /* Adjusted font size */
+    }
+}
