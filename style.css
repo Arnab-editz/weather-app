@@ -94,3 +94,45 @@ body{
     margin-top: 10px;
     display: none;
 }
+@media screen and (max-width: 600px) {
+    .card {
+        padding: 30px 20px; /* Adjusted padding */
+    }
+
+    .search input {
+        padding: 10px 15px; /* Adjusted padding */
+    }
+
+    .search button {
+        width: 40px; /* Adjusted width */
+        height: 40px; /* Adjusted height */
+    }
+
+    .search button img {
+        width: 10px; /* Adjusted width */
+    }
+
+    .weather-icon {
+        width: 100px; /* Adjusted width */
+    }
+
+    .weather h1 {
+        font-size: 40px; /* Adjusted font size */
+    }
+
+    .weather h2 {
+        font-size: 25px; /* Adjusted font size */
+    }
+
+    .details {
+        margin-top: 20px; /* Adjusted margin top */
+    }
+
+    .col img {
+        width: 25px; /* Adjusted width */
+    }
+
+    .humidity, .wind {
+        font-size: 16px; /* Adjusted font size */
+    }
+}
