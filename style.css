@@ -101,6 +101,7 @@ body{
 
     .search input {
         padding: 10px 15px; /* Adjusted padding */
+        height: 40px;
     }
 
     .search button {
